@@ -1,9 +1,21 @@
 <!DOCTYPE html>
-<html>
-    <head>
-        <title>Donations Page</title>
-    </head>
-    <body>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles/styles.css">
+    <title>Donaciones</title>
+</head>
+<body class="screen">
+    <div>
+        <div class="nav">
+            <a href="index.html"><div class="nav_este">Home</div></a>
+            <a href="nosotros.html"><div class="nav_text">Nosotros</div></a>
+            <a href="iniciativas.html"><div class="nav_text">Iniciativas</div></a>
+            <a href="empezaHoy.html"><div class="nav_text">Empeza hoy</div></a>
+            <a href="donaciones.html"><div class="nav_text">Donaciones</div></a>
+        </div>
+    </div>
         <h1>Donate to Save the Penguins</h1>
         <p>Thank you for considering a donation to our cause. Your contribution will help us protect penguin habitats and promote conservation efforts.</p>
         <form action="https://www.example.com/donate" method="post">
@@ -15,7 +27,7 @@
             <input type="number" id="amount" name="amount" min="1" required><br><br>
             <label for="message">Message:</label><br>
             <textarea id="message" name="message" rows="5" cols="30"></textarea><br><br>
-            <input type="submit" value="Donate">
+            <input type="submit" class="donateButton" value="Donate" onclick="donateButton">
         </form>
     </body>
 </html>

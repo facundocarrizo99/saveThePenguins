@@ -1,0 +1,93 @@
+/* Set the background color to a light shade of blue */
+body {
+    background-color: #f2f7ff;
+}
+
+/* Set the font color to black */
+body {
+    color: #000000;
+}
+
+/* Set the font family to a sans-serif font */
+body {
+    font-family: Arial, sans-serif;
+}
+
+/* Set the font size to 16 pixels */
+body {
+    font-size: 16px;
+}
+
+/* Set the link color to a darker shade of blue */
+a {
+    color: #1e90ff;
+}
+
+/* Set the hover color for links to a lighter shade of blue */
+a:hover {
+    color: #87cefa;
+}
+
+/* Set the border color for images to a light shade of blue */
+img {
+    border: 1px solid #d6e4ff;
+}
+
+/* Set the background color for headings to a darker shade of blue */
+h1, h2, h3, h4, h5, h6 {
+    background-color: #1e90ff;
+    color: #ffffff;
+    padding: 10px;
+    margin: 10px 0;
+}
+
+/* Set the border color for headings to a darker shade of blue */
+h1, h2, h3, h4, h5, h6 {
+    border: 1px solid #1e90ff;
+}
+
+/* Set the background color for buttons to a darker shade of blue */
+button {
+    background-color: #1e90ff;
+    color: #ffffff;
+    border: none;
+    padding: 10px;
+    margin: 10px 0;
+}
+
+/* Set the hover color for buttons to a lighter shade of blue */
+button:hover {
+    background-color: #87cefa;
+}
+
+/* Set the background color for form inputs to a light shade of blue */
+input[type="text"], input[type="email"], input[type="password"], textarea {
+    background-color: #d6e4ff;
+    border: none;
+    padding: 10px;
+    margin: 10px 0;
+}
+
+/* Set the border color for form inputs to a light shade of blue */
+input[type="text"], input[type="email"], input[type="password"], textarea {
+    border: 1px solid #d6e4ff;
+}
+
+/* Set the hover color for form inputs to a lighter shade of blue */
+input[type="text"]:hover, input[type="email"]:hover, input[type="password"]:hover, textarea:hover {
+    background-color: #f2f7ff;
+}
+
+/* Set the background color for form buttons to a darker shade of blue */
+input[type="submit"], button[type="submit"] {
+    background-color: #1e90ff;
+    color: #ffffff;
+    border: none;
+    padding: 10px;
+    margin: 10px 0;
+}
+
+/* Set the hover color for form buttons to a lighter shade of blue */
+input[type="submit"]:hover, button[type="submit"]:hover {
+    background-color: #87cefa;
+}
