@@ -18,10 +18,12 @@ body {
     font-size: 16px;
 }
 
-/* Set the link color to a darker shade of blue */
+
 a {
-    color: #1e90ff;
-}
+    color: black;
+    text-decoration: none;
+  }
+  
 
 /* Set the hover color for links to a lighter shade of blue */
 a:hover {
@@ -91,3 +93,31 @@ input[type="submit"], button[type="submit"] {
 input[type="submit"]:hover, button[type="submit"]:hover {
     background-color: #87cefa;
 }
+
+
+/* ----------------------------------------NAV-------------------------------------------- */
+
+.nav{
+    justify-content: space-around;
+    width: 100%;
+    align-items: center;
+    display: flex;
+}
+
+.nav_text {
+    color: black;
+    text-align: center;
+    font: 700 35px 'Inter', sans-serif;
+    margin-bottom: 45px;
+}
+
+.nav_este{
+    color: black;
+    text-align: center;
+    font: 700 35px 'Inter', sans-serif;
+    margin-bottom: 45px;
+    border-bottom: #48515B;
+    border: 2px;
+    border-bottom-style: solid;
+}
+  
