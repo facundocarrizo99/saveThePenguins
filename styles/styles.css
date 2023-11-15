@@ -121,3 +121,33 @@ input[type="submit"]:hover, button[type="submit"]:hover {
     border-bottom-style: solid;
 }
   
+
+/* ----------------------------------------------------------------------------------- */
+
+.logo{
+    display: flex;
+    align-items: center;
+    text-align: center;
+    justify-content: space-around;
+}
+
+.logo_save{
+    font: 700 35px 'Inter', sans-serif;
+    display: flex;
+    text-align: left;
+}
+
+.linea_logo{
+    width: 0px;
+    border: 2px;
+    border-style: solid;
+    height: 10rem;
+    border-color: black;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+.logo_IMG{
+    width: 40%;
+    height: 40%;
+}
