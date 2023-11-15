@@ -202,11 +202,6 @@ input[type="submit"]:hover, button[type="submit"]:hover {
     display: inline-block;
     width: 60px;
     height: 34px;
-    justify-self: center;
-    justify-content: center;
-    align-items: center;
-    text-align: center;
-
   }
   
   /* Hide default HTML checkbox */
@@ -263,3 +258,5 @@ input[type="submit"]:hover, button[type="submit"]:hover {
   .slider.round:before {
     border-radius: 50%;
   } 
+
+  
