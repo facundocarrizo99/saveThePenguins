@@ -26,25 +26,10 @@ a {
   
 
 /* Set the hover color for links to a lighter shade of blue */
-a:hover {
-    color: #87cefa;
-}
+
 
 /* Set the border color for images to a light shade of blue */
 
-
-/* Set the background color for headings to a darker shade of blue */
-h1, h2, h3, h4, h5, h6 {
-    background-color: #1e90ff;
-    color: #ffffff;
-    padding: 10px;
-    margin: 10px 0;
-}
-
-/* Set the border color for headings to a darker shade of blue */
-h1, h2, h3, h4, h5, h6 {
-    border: 1px solid #1e90ff;
-}
 
 /* Set the background color for buttons to a darker shade of blue */
 button {
@@ -94,6 +79,7 @@ input[type="submit"]:hover, button[type="submit"]:hover {
 
 .screen{
     background-color: #feffff;
+    align-items: center;
 }
 
 /* ----------------------------------------NAV-------------------------------------------- */
@@ -123,7 +109,7 @@ input[type="submit"]:hover, button[type="submit"]:hover {
 }
   
 
-/* ----------------------------------------------------------------------------------- */
+/* ----------LOGO------------------------------------------------------------------------- */
 
 .logo{
     display: flex;
@@ -151,4 +137,60 @@ input[type="submit"]:hover, button[type="submit"]:hover {
 .logo_img{
     width: 80%;
     height: 80%;
+}
+
+
+/* ----------NOSOTROS--------------------------------------------------------------- */
+
+.nosotros{
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    justify-content: center;
+    
+}
+
+.title1{
+    color: black;
+    text-align: center;
+    font: 700 40px 'Inter', Serif;
+    margin-bottom: 45px;
+}
+
+.title2{
+    color: black;
+    text-align: center;
+    font: 700 25px 'Inter', Serif;
+    margin-bottom: 20px;
+}
+
+.p{
+    justify-self: center;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.ul{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+
+.li{
+    justify-self: center;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    width: fit-content;
+}
+
+
+.statement{
+    width: 60%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
 }
