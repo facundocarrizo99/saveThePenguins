@@ -1,6 +1,6 @@
 /* Set the background color to a light shade of blue */
 body {
-    background-color: #f2f7ff;
+    background-color: #f3f3f3;
 }
 
 /* Set the font color to black */
@@ -31,9 +31,7 @@ a:hover {
 }
 
 /* Set the border color for images to a light shade of blue */
-img {
-    border: 1px solid #d6e4ff;
-}
+
 
 /* Set the background color for headings to a darker shade of blue */
 h1, h2, h3, h4, h5, h6 {
@@ -94,6 +92,9 @@ input[type="submit"]:hover, button[type="submit"]:hover {
     background-color: #87cefa;
 }
 
+.screen{
+    background-color: #feffff;
+}
 
 /* ----------------------------------------NAV-------------------------------------------- */
 
@@ -107,14 +108,14 @@ input[type="submit"]:hover, button[type="submit"]:hover {
 .nav_text {
     color: black;
     text-align: center;
-    font: 700 35px 'Inter', sans-serif;
+    font: 700 35px 'Inter', Serif;
     margin-bottom: 45px;
 }
 
 .nav_este{
     color: black;
     text-align: center;
-    font: 700 35px 'Inter', sans-serif;
+    font: 700 35px 'Inter', Serif;
     margin-bottom: 45px;
     border-bottom: #48515B;
     border: 2px;
@@ -128,7 +129,7 @@ input[type="submit"]:hover, button[type="submit"]:hover {
     display: flex;
     align-items: center;
     text-align: center;
-    justify-content: space-around;
+    justify-content: center;
 }
 
 .logo_save{
@@ -141,13 +142,13 @@ input[type="submit"]:hover, button[type="submit"]:hover {
     width: 0px;
     border: 2px;
     border-style: solid;
-    height: 10rem;
+    height: 30rem;
     border-color: black;
     margin-left: 10px;
     margin-right: 10px;
 }
 
-.logo_IMG{
-    width: 40%;
-    height: 40%;
+.logo_img{
+    width: 80%;
+    height: 80%;
 }
