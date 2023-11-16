@@ -10,7 +10,7 @@ body {
 
 /* Set the font family to a sans-serif font */
 body {
-    font-family: Arial, sans-serif;
+    font-family: 'Roboto', sans-serif;
 }
 
 /* Set the font size to 16 pixels */
@@ -98,14 +98,14 @@ input[type="submit"]:hover, button[type="submit"]:hover {
 .nav_text {
     color: black;
     text-align: center;
-    font: 700 35px 'Inter', Serif;
+    font: 700 35px 'Roboto', sans-serif;;
     margin-bottom: 45px;
 }
 
 .nav_este{
     color: black;
     text-align: center;
-    font: 700 35px 'Inter', Serif;
+    font: 700 35px 'Roboto', sans-serif;;
     margin-bottom: 45px;
     border-bottom: #48515B;
     border: 2px;
@@ -123,7 +123,7 @@ input[type="submit"]:hover, button[type="submit"]:hover {
 }
 
 .logo_save{
-    font: 700 35px 'Inter', sans-serif;
+    font: 700 35px 'Roboto', sans-serif;
     display: flex;
     text-align: left;
 }
@@ -166,14 +166,14 @@ input[type="submit"]:hover, button[type="submit"]:hover {
 .title1{
     color: black;
     text-align: center;
-    font: 700 40px 'Inter', Serif;
+    font: 700 40px 'Roboto', sans-serif;
     margin-bottom: 45px;
 }
 
 .title2{
     color: black;
     text-align: center;
-    font: 700 25px 'Inter', Serif;
+    font: 700 25px 'Roboto', sans-serif;
     margin-bottom: 20px;
 }
 
@@ -275,4 +275,14 @@ input[type="submit"]:hover, button[type="submit"]:hover {
 .donateTitle{
     display: flex;
     justify-content: space-evenly;
+}
+
+.imgMapaPinguinos{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+
+    justify-content: center;
+    justify-self: center;
+    
 }
