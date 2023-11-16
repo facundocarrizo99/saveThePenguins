@@ -82,6 +82,10 @@ input[type="submit"]:hover, button[type="submit"]:hover {
     align-items: center;
 }
 
+.donateButton{
+    margin-bottom: 20px;
+}
+
 /* ----------------------------------------NAV-------------------------------------------- */
 
 .nav{
@@ -137,6 +141,14 @@ input[type="submit"]:hover, button[type="submit"]:hover {
 .logo_img{
     width: 80%;
     height: 80%;
+    display: flex;
+    justify-self: center;
+}
+
+.logo_img2{
+    display: flex;
+    justify-self: center;
+    align-items: center;
 }
 
 
@@ -237,11 +249,11 @@ input[type="submit"]:hover, button[type="submit"]:hover {
   }
   
   input:checked + .slider {
-    background-color: #2196F3;
+    background-color: #011f37;
   }
   
   input:focus + .slider {
-    box-shadow: 0 0 1px #2196F3;
+    box-shadow: 0 0 1px #011f37;
   }
   
   input:checked + .slider:before {
@@ -259,4 +271,8 @@ input[type="submit"]:hover, button[type="submit"]:hover {
     border-radius: 50%;
   } 
 
-  
+
+.donateTitle{
+    display: flex;
+    justify-content: space-evenly;
+}
