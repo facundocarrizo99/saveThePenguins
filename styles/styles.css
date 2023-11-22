@@ -286,3 +286,30 @@ input[type="submit"]:hover, button[type="submit"]:hover {
     justify-self: center;
     
 }
+
+.footer{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    text-align: center;
+    background-color: #011f37;
+    color: white;
+    height: 100px;
+    
+}
+
+.footer_text{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    text-align: center;
+    background-color: #011f37;
+    color: white;
+    height: 100px;
+    bottom: 0;
+}
+
+.logo_uade{
+    height: 35%;
+    width: 10%;
+}
