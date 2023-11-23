@@ -93,17 +93,21 @@ input[type="submit"]:hover, button[type="submit"]:hover {
     width: 100%;
     align-items: center;
     display: flex;
+    background-color: #011f37;
+    padding-top: 25px;
 }
 
 .nav_text {
-    color: black;
+    color: white;
+    /* color: black; */
     text-align: center;
     font: 700 35px 'Roboto', sans-serif;;
     margin-bottom: 45px;
 }
 
 .nav_este{
-    color: black;
+    color: white;
+    /* color: black; */
     text-align: center;
     font: 700 35px 'Roboto', sans-serif;;
     margin-bottom: 45px;
@@ -295,7 +299,8 @@ input[type="submit"]:hover, button[type="submit"]:hover {
     background-color: #011f37;
     color: white;
     height: 100px;
-    
+    bottom: 0;
+    width: 100%;
 }
 
 .footer_text{
@@ -306,10 +311,30 @@ input[type="submit"]:hover, button[type="submit"]:hover {
     background-color: #011f37;
     color: white;
     height: 100px;
-    bottom: 0;
 }
 
 .logo_uade{
     height: 35%;
     width: 10%;
+}
+
+@media only screen and (max-width: 1090px){
+    .nav_text{
+        font: 700 22px 'Roboto', sans-serif;
+    }
+
+    .nav_este{
+        font: 700 22px 'Roboto', sans-serif;
+    }
+}
+
+@media only screen and (max-width: 600px) {
+    .nav_text{
+        font: 700 15px 'Roboto', sans-serif;
+    }
+
+    .nav_este{
+        font: 700 15px 'Roboto', sans-serif;
+    }
+
 }
