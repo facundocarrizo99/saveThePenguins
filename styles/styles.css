@@ -342,3 +342,14 @@ input[type="submit"]:hover, button[type="submit"]:hover {
     }
 
 }
+
+@media only screen and (max-width: 400px) {
+    .nav_text{
+        font: 700 10px 'Roboto', sans-serif;
+    }
+
+    .nav_este{
+        font: 700 10px 'Roboto', sans-serif;
+    }
+
+}
