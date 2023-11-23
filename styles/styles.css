@@ -318,6 +318,10 @@ input[type="submit"]:hover, button[type="submit"]:hover {
     width: 10%;
 }
 
+.div_video{
+    margin-bottom: 35px;
+}
+
 @media only screen and (max-width: 1090px){
     .nav_text{
         font: 700 22px 'Roboto', sans-serif;
